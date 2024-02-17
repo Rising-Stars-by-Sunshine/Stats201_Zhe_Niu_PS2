@@ -35,6 +35,9 @@ This dataset offers a rich, multidimensional view into the factors affecting obe
 - Utilization of confusion matrices and ROC curves to provide insights into model effectiveness in classifying obesity levels.
 - Iterative model refinement through hyperparameter tuning and cross-validation techniques to maximize predictive performance.
 
+## Flowchart for Data Query & Data Analysis
+![Data A](Data_A.png)
+
 ## Reference
 - Kaggle's Multi-Class Prediction of Obesity Risk Dataset. Accessed: [Obesity Risk Dataset](https://www.kaggle.com/competitions/playground-series-s4e2/data)
 
