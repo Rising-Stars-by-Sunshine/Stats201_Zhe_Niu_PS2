@@ -1,6 +1,9 @@
 # 1.1. The Prediction Problem
 ## Research Question Formulation:
-- Objective: The primary goal is to estimate an individual's risk of obesity based on a variety of characteristics such as nutrition, physical activity, genetic predispositions, and lifestyle choices.
+- How can machine learning models be effectively utilized to predict obesity risk levels based on a range of features? 
+
+- Which are the most important features used to predict obesity risk?
+
 
 - Significance: Understanding and predicting obesity risk is critical because it is linked to a number of chronic diseases, including diabetes, heart disease, and some malignancies (Robin, 2007). Early prediction can help with preventive actions and personalized healthcare interventions, lowering the overall healthcare burden.
 
@@ -18,7 +21,11 @@
 # 1.2.The Machine Learning Workflow
 ## Model Development
 -	Data Processing: The approach entails cleaning the data, managing any missing values, encoding categorical variables, normalizing/standardizing numerical variables as needed, and developing new features (e.g., BMI) that may improve the model's predictive capability. Feature selection will be used to determine the most important indicators for predicting obesity risk.
-Results Presentation
+
+## Methodolody
+-	The methodology of our study revolves around employing ensemble machine learning techniques—specifically, Random Forest, LightGBM, and XGBoost—to predict obesity risk levels from a comprehensive dataset that encapsulates various features, including nutrition, physical activity, genetic predispositions, and lifestyle choices.  The dataset undergoes rigorous preprocessing to ensure its suitability for analysis, including data cleaning, feature encoding, and normalization.  A significant aspect of our approach is the use of feature selection methods to identify the most impactful predictors of obesity risk.  The models are trained on 80% of the data and validated on the remaining 20% to evaluate their performance using metrics such as accuracy, precision, recall, F1-score, and the area under the ROC curve (AUC). This methodology not only aims to ascertain the effectiveness of machine learning models in predicting obesity risk levels but also seeks to uncover which features hold the most predictive power in determining obesity risk.
+
+## Results Presentation
 -	Training and Testing: The dataset will be split into a training set (80%) and a testing set (20%). The model's performance will be evaluated on the testing set after being trained on the training set.
 - Data Visualization: Visualization tools such as confusion matrices, ROC curves, and feature significance charts will be used to display the findings. These strategies are effective at communicating the model's performance and the impact of various variables on prediction.
 ## Model Evaluation
